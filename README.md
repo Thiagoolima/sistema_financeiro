@@ -30,7 +30,9 @@ Para usar a API, basta enviar solicitações HTTP para os endpoints disponíveis
 ## Não sabe ou não deseja criar as requisições HTTP no insomnia?
 Deixei a coleção de requisições HTTP pronta para você usar com o insomnia logo abaixo tem o o link, é só baixar e importar no próprio insomnia.
 <br>
-https://insomnia.rest/run/?label=sistema_financeiro&uri=https%3A%2F%2Fgithub.com%2FThiagoolima%2Fsistema_financeiro%2Fblob%2Fmain%2Fcolecoes%2Finsomnia_sistema_financeiro.json
+https://github.com/Thiagoolima/sistema_financeiro/blob/main/colecao_http/colecao_requisicoes_insomnia.json
+<br>
+Também é possível encontrar na pasta: "colecao_http" do projeto.
 ## Endpoints
 
 #### `POST` `/usuario`
