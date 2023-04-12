@@ -28,11 +28,11 @@ create database sistema_financeiro;
 Para usar a API, basta enviar solicitações HTTP para os endpoints disponíveis.
 
 ## Não sabe ou não deseja criar as requisições HTTP no insomnia?
-Deixei a coleção de requisições HTTP pronta para você usar com o insomnia logo abaixo tem o o link, é só baixar e importar no próprio insomnia.
+Deixei a coleção de requisições HTTP pronta para você usar com o insomnia logo abaixo tem um botão, é só clicar e importar.
 <br>
-https://github.com/Thiagoolima/sistema_financeiro/blob/main/colecao_http/colecao_requisicoes_insomnia.json
+<a href="https://insomnia.rest/run/?label=sistema_financeiro&uri=https%3A%2F%2Fgithub.com%2FThiagoolima%2Fsistema_financeiro%2Fblob%2Fmain%2Fcolecao_http%2Fcolecao_requisicoes_insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 <br>
-Também é possível encontrar na pasta: "colecao_http" do projeto.
+Também é possível encontrar o arquivo na pasta: "colecao_http" do projeto.
 ## Endpoints
 
 #### `POST` `/usuario`
