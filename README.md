@@ -11,7 +11,6 @@ Para a criação do banco de dados siga os passos:
 
 ```postgresql
 create database sistema_financeiro;
-
 ```
 2. Na raiz do projeto existe um arquivo com o nome: `dump.sql`, nele se encontra o código para criação das tabelas. Para executar o código pode usar um programa de gerenciamento de banco de dados de sua preferência como beekeeper ou dbeaver.
 
