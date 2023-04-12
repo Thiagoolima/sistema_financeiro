@@ -1,0 +1,426 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-04-11T20:16:46.925Z",
+    "__export_source": "insomnia.desktop.app:v2023.1.0",
+    "resources": [
+        {
+            "_id": "req_dddafd8f824a4984888579f4474e2816",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681241279445,
+            "created": 1681239060309,
+            "url": "{{ _.baseURL }}/usuario",
+            "name": "Cadastrar Usuário",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"nome\": \"Thiago Oliveira de Lima\",\n\t\"email\": \"thiago@email.com\",\n\t\"senha\": \"123456\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1681239060309,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_f20e4a72c2324faea962078612381012",
+            "parentId": null,
+            "modified": 1681238874803,
+            "created": 1681238874803,
+            "name": "Sistema_financeiro",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_06000cc968e8432d9713f94afb540900",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244004675,
+            "created": 1681239195022,
+            "url": "{{ _.baseURL }}/login",
+            "name": "Login",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"email\": \"thiago@email.com\",\n\t\"senha\": \"123456\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1679493060717.4375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_459e59a1aff94ad6b6b3726eb4168b5c",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244100502,
+            "created": 1681241815294,
+            "url": "{{ _.baseURL }}/usuario",
+            "name": "Detalhar Usuário",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": "",
+                "disabled": false
+            },
+            "metaSortKey": -1679493060667.4375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_871a2f7940da4589853a3c272d52c765",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244102647,
+            "created": 1681242107567,
+            "url": "{{ _.baseURL }}/usuario",
+            "name": "Atualizar Usuário",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"nome\": \"Thiago Oliveira\",\n\t\"email\": \"teste@email.com\",\n\t\"senha\": \"789456\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1678620060896.6562,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_763a38cba5734e44831f7b50ec6b0613",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244104935,
+            "created": 1681242230855,
+            "url": "{{ _.baseURL }}/categoria",
+            "name": "Listar Categorias",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1678183561011.2656,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_d8e024c47e364e9b999cf9ff0ac58a29",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244107120,
+            "created": 1681242343255,
+            "url": "{{ _.baseURL }}/transacao",
+            "name": "Listar Transação",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677965311068.5703,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b5c5ccddf7bd4d359857d8cbc57afcb4",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244109065,
+            "created": 1681242805297,
+            "url": "{{ _.baseURL }}/transacao?filtro[]=roupas&filtro[]=salários",
+            "name": "Listar Transação (com query params)",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677910748582.8965,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_d9057b9a4b1e4835b8fb33c527c0e5d4",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244111359,
+            "created": 1681242571468,
+            "url": "{{ _.baseURL }}/transacao/extrato",
+            "name": "Emitir Extrato",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677856186097.2227,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_7d2ca89a0f6842e69fe776a923685c2c",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244113553,
+            "created": 1681242691138,
+            "url": "{{ _.baseURL }}/transacao/4",
+            "name": "Detalhar Transação",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677801623611.5488,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_94ef2aa98c664b56a08e3d7d493c760e",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244115720,
+            "created": 1681242845338,
+            "url": "{{ _.baseURL }}/transacao",
+            "name": "Cadastrar Transação",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"descricao\": \"Salário\",\n\t\"valor\": 100000,\n\t\"data\": \"2022-03-24T15:30:22.000Z\",\n\t\"categoria_id\": \"7\",\n\t\"tipo\": \"saida\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677774342368.712,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_60e4601323ce490b92d3d9f5c7a583bc",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244117817,
+            "created": 1681243269439,
+            "url": "{{ _.baseURL }}/transacao/1",
+            "name": "Atualizar Transação",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"descricao\": \"teste\",\n\t\"valor\": 4444,\n\t\"data\": \"2022-03-24T15:30:00.000Z\",\n\t\"categoria_id\": \"4\",\n\t\"tipo\": \"entrada\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677760701747.2935,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6d60225c6b454d07ada5f25e1be0c257",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681244119887,
+            "created": 1681243480707,
+            "url": "{{ _.baseURL }}/transacao/1",
+            "name": "Excluir Transação",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "",
+                "prefix": ""
+            },
+            "metaSortKey": -1677753881436.5842,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_c2b707e1a5723d582ec50b311c9a92b7588cb7f5",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681238874808,
+            "created": 1681238874808,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1681238874808,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_c2b707e1a5723d582ec50b311c9a92b7588cb7f5",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681238874810,
+            "created": 1681238874810,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_183e3da78a5c484ab888e38c8bced647",
+            "parentId": "wrk_f20e4a72c2324faea962078612381012",
+            "modified": 1681238874805,
+            "created": 1681238874805,
+            "fileName": "Sistema_financeiro",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_90e88aaa9e6e4468aeb2b5cb80a2eb2a",
+            "parentId": "env_c2b707e1a5723d582ec50b311c9a92b7588cb7f5",
+            "modified": 1681239040399,
+            "created": 1681238899565,
+            "name": "Desenvolvimento (localhost)",
+            "data": {
+                "baseURL": "http://localhost:3000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseURL"
+                ]
+            },
+            "color": "#1eff00",
+            "isPrivate": false,
+            "metaSortKey": 1681238899565,
+            "_type": "environment"
+        }
+    ]
+}
