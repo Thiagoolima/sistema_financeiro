@@ -5,6 +5,7 @@ const categoriasRotas = require('./rotas/categorias');
 const transacoesRotas = require('./rotas/transacoes');
 const { usuariosRotas, usuariosRotasProt } = require('./rotas/usuarios');
 require('dotenv').config();
+console.log(__dirname)
 
 const app = express();
 const PORT = process.env.PORT || 3000;
