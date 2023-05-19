@@ -9,7 +9,7 @@ create table categorias (
     id serial primary key,
     descricao text
 );
-
+ 
 create table transacoes (
     id serial primary key,
     descricao text,
